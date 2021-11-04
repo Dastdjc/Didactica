@@ -1,0 +1,22 @@
+{
+    "uid": "2B943FAC79A5C24D776A498849BB158768BD",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Laura",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "isFolder": true,
+        "parentId": "ROOT",
+        "data": {
+            "name": "Laura",
+            "isFolder": true
+        },
+        "order": 13
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

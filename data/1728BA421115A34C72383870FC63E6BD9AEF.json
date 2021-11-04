@@ -1,0 +1,49 @@
+{
+    "uid": "1728BA421115A34C72383870FC63E6BD9AEF",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Mama de Laura",
+        "type": "data_record",
+        "category": "characters",
+        "id": "1728BA421115A34C72383870FC63E6BD9AEF",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "localizableStrings": {
+            "E48E0F4828ED2741EC0967635B6DCAAB62BC": {
+                "t": "",
+                "d": null
+            },
+            "4B9EFA4328D2334DEB59140145F2426323A3": {
+                "t": "Mama de Laura",
+                "d": null
+            }
+        },
+        "data": {
+            "name": {
+                "lcId": "4B9EFA4328D2334DEB59140145F2426323A3",
+                "defaultText": "Mama de Laura"
+            },
+            "textColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 255
+            },
+            "defaultExpressionId": "BF7CB12110894142C299D341A545C910AA86",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "lipSyncSensitivity": 1,
+            "breathIntensity": 1,
+            "idleIntensity": 1,
+            "params": [],
+            "index": "1728BA421115A34C72383870FC63E6BD9AEF"
+        },
+        "order": 15
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

@@ -1,0 +1,514 @@
+{
+    "uid": "4F53DB1693482443A87BD2171370A651A84B",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Sueño",
+        "type": "vn.scene",
+        "parentId": "49DC3EE6267197419859C9E4D23776294B50",
+        "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+        "order": 1,
+        "localizableStrings": {
+            "AD32699A7AB62044348919A27ED2DE207C0F": {
+                "t": "El sueño era perfecto. Nadie la molestaba y tenía amigos y amigas por doquier. Era maravilloso. Nada podia estropearlo. Estando ya cosciente del sueño decidió que sería una buena idea pasearse por el sueño un rato mas. No siempre se tiene un sueño lucido y este desde luego que merecía la pena. Estaba Claudia, su mejor amiga, la cogió del brazo y se fue con ella para buscar a mas gente. En la habitación habia una televisión con una consola enganchada a ella. Fue con Claudia y dos mas para jugar a un juego cooperativo. A Laura se le daban de muerte los videojuegos con lo que no tuvo problemas en derrotar a todos sus rivales.",
+                "d": {
+                    "cid": 0
+                }
+            },
+            "CBFB95B44697E4403A484937ED271C19CC9C": {
+                "t": "¡Si, lo conseguí otra vez!",
+                "d": {
+                    "cid": "9748F1BF40CE9249DF5907C6A017F4456630",
+                    "eid": "C7D5660F992D054A3189A9382DD0297BB542"
+                }
+            },
+            "51059E267DC0094AB958F4C4B2FDC2667BE8": {
+                "t": "Pffff, eso ha sido suerte, si eres malísima",
+                "d": {
+                    "cid": "07655047999F9544094BB3A574837CAD7CBD",
+                    "eid": "ED4E20FB2E6C05464668164220C13386AC2F"
+                }
+            },
+            "157864BE9F065747CA4BA936B24A292C5902": {
+                "t": "¿Qu-que?",
+                "d": {
+                    "cid": "9748F1BF40CE9249DF5907C6A017F4456630",
+                    "eid": "8E84070118C1254EB93BD2B407B15C3D4BB2"
+                }
+            },
+            "E0827F5198F35445915B16D61F678CE08A9B": {
+                "t": "Lo que has escuchado, eres una poser con los videojuegos. Las chicas no juegan a los videojuegos enterate.",
+                "d": {
+                    "cid": "07655047999F9544094BB3A574837CAD7CBD",
+                    "eid": "CB527B951D79614A566841766841F2C148F8"
+                }
+            },
+            "C01A346B1666D54F033B44A2411FA4ADF604": {
+                "t": "¡Claro que sí jugamos!",
+                "d": {
+                    "cid": "9748F1BF40CE9249DF5907C6A017F4456630",
+                    "eid": "3FA8C1C28295F0442869DAA6E9B116285774"
+                }
+            },
+            "9CCF5ED567C3404EFC5BD20936E50B0602EE": {
+                "t": "¡Cállate! ¡Eres la peor! ¡Laura la peor, Laura la peor!",
+                "d": {
+                    "cid": "07655047999F9544094BB3A574837CAD7CBD",
+                    "eid": "B0CAA38D3711A54B414A9644A0289A37B7F4"
+                }
+            },
+            "E3EAC807147B014BA87B91B83883721FD418": {
+                "t": "¡Dejame! ¡Cállate!",
+                "d": {
+                    "cid": "9748F1BF40CE9249DF5907C6A017F4456630",
+                    "eid": "AADFD4AE3648994C498AD226A6939C14341A"
+                }
+            },
+            "C6EB7B14781D60456C9B99C85677A9DF8E40": {
+                "t": "¡Laura! ¡Laura!",
+                "d": {
+                    "cid": "07655047999F9544094BB3A574837CAD7CBD",
+                    "eid": "D900A95B3526004945281426B4093BD7C466"
+                }
+            }
+        },
+        "commands": [
+            {
+                "id": "gs.SetMessageArea",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 100
+                        }
+                    }
+                },
+                "uid": "80B70FF53A0BF54A76290012C9265BFBD701",
+                "indent": 0
+            },
+            {
+                "id": "gs.SetTargetMessage",
+                "params": {
+                    "id": "gameMessage_message",
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "type": 1,
+                    "clear": 1
+                },
+                "uid": "81113C954A8656402169A3A86C1D6DAEB551",
+                "indent": 0
+            },
+            {
+                "id": "gs.CreateMessageArea",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "box": {
+                        "x": 257,
+                        "y": 78,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 699,
+                            "height": 546
+                        }
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "7673071A6F41F64D15992817F7AB00FA9E98",
+                "indent": 0
+            },
+            {
+                "id": "gs.WaitCommand",
+                "params": {
+                    "time": 180
+                },
+                "uid": "63CFA1325F91174AB83B67116C21532AA77F",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "AD32699A7AB62044348919A27ED2DE207C0F",
+                        "defaultText": "El sueño era perfecto. Nadie la molestaba y tenía amigos y amigas por doquier. Era maravilloso. Nada podia estropearlo. Estando ya cosciente del sueño decidió que sería una buena idea pasearse por el sueño un rato mas. No siempre se tiene un sueño lucido y este desde luego que merecía la pena. Estaba Claudia, su mejor amiga, la cogió del brazo y se fue con ella para buscar a mas gente. En la habitación habia una televisión con una consola enganchada a ella. Fue con Claudia y dos mas para jugar a un juego cooperativo. A Laura se le daban de muerte los videojuegos con lo que no tuvo problemas en derrotar a todos sus rivales."
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.EraseMessageArea",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0
+                },
+                "uid": "B75D23CC3E265640F689A9B092C60C433A48",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "3D6E5C572649114DC58A57F0423BFBDDD78F",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "CBFB95B44697E4403A484937ED271C19CC9C",
+                        "defaultText": "¡Si, lo conseguí otra vez!"
+                    },
+                    "position": 0,
+                    "characterId": "9748F1BF40CE9249DF5907C6A017F4456630",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "C7D5660F992D054A3189A9382DD0297BB542",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "51059E267DC0094AB958F4C4B2FDC2667BE8",
+                        "defaultText": "Pffff, eso ha sido suerte, si eres malísima"
+                    },
+                    "position": 0,
+                    "characterId": "07655047999F9544094BB3A574837CAD7CBD",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "ED4E20FB2E6C05464668164220C13386AC2F",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "157864BE9F065747CA4BA936B24A292C5902",
+                        "defaultText": "¿Qu-que?"
+                    },
+                    "position": 0,
+                    "characterId": "9748F1BF40CE9249DF5907C6A017F4456630",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "8E84070118C1254EB93BD2B407B15C3D4BB2",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "E0827F5198F35445915B16D61F678CE08A9B",
+                        "defaultText": "Lo que has escuchado, eres una poser con los videojuegos. Las chicas no juegan a los videojuegos enterate."
+                    },
+                    "position": 0,
+                    "characterId": "07655047999F9544094BB3A574837CAD7CBD",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "CB527B951D79614A566841766841F2C148F8",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "C01A346B1666D54F033B44A2411FA4ADF604",
+                        "defaultText": "¡Claro que sí jugamos!"
+                    },
+                    "position": 0,
+                    "characterId": "9748F1BF40CE9249DF5907C6A017F4456630",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "3FA8C1C28295F0442869DAA6E9B116285774",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "9CCF5ED567C3404EFC5BD20936E50B0602EE",
+                        "defaultText": "¡Cállate! ¡Eres la peor! ¡Laura la peor, Laura la peor!"
+                    },
+                    "position": 0,
+                    "characterId": "07655047999F9544094BB3A574837CAD7CBD",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "B0CAA38D3711A54B414A9644A0289A37B7F4",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "E3EAC807147B014BA87B91B83883721FD418",
+                        "defaultText": "¡Dejame! ¡Cállate!"
+                    },
+                    "position": 0,
+                    "characterId": "9748F1BF40CE9249DF5907C6A017F4456630",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "AADFD4AE3648994C498AD226A6939C14341A",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "C6EB7B14781D60456C9B99C85677A9DF8E40",
+                        "defaultText": "¡Laura! ¡Laura!"
+                    },
+                    "position": 0,
+                    "characterId": "07655047999F9544094BB3A574837CAD7CBD",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "D900A95B3526004945281426B4093BD7C466",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "E39663C506A1D74D42283C4814843A46A920",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "1249CAE91684754AA72A9780172B417D1764",
+                        "name": "Despertar"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "C09603002871524A22384393CCFCE324FD6D",
+                "indent": 0
+            }
+        ],
+        "livePreviewDisabled": false,
+        "listVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ]
+}

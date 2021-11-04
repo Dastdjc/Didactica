@@ -1,0 +1,41 @@
+{
+    "uid": "01EFABFC472FC040071A6E32F75AD443ADAD",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Triste",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "01EFABFC472FC040071A6E32F75AD443ADAD",
+        "isFolder": false,
+        "parentId": "2B943FAC79A5C24D776A498849BB158768BD",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Triste",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "sprite1 sad small",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "01EFABFC472FC040071A6E32F75AD443ADAD"
+        },
+        "order": 2
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

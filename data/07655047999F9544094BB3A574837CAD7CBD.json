@@ -1,0 +1,49 @@
+{
+    "uid": "07655047999F9544094BB3A574837CAD7CBD",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Compañero",
+        "type": "data_record",
+        "category": "characters",
+        "id": "07655047999F9544094BB3A574837CAD7CBD",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "localizableStrings": {
+            "6C9F39CD22115346CE1BF5258D3FBB16450F": {
+                "t": "",
+                "d": null
+            },
+            "1D62E2150A2B484C37588E53FA0A76F00691": {
+                "t": "Compañero",
+                "d": null
+            }
+        },
+        "data": {
+            "name": {
+                "lcId": "1D62E2150A2B484C37588E53FA0A76F00691",
+                "defaultText": "Compañero"
+            },
+            "textColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 255
+            },
+            "defaultExpressionId": "BF7CB12110894142C299D341A545C910AA86",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "lipSyncSensitivity": 1,
+            "breathIntensity": 1,
+            "idleIntensity": 1,
+            "params": [],
+            "index": "07655047999F9544094BB3A574837CAD7CBD"
+        },
+        "order": 14
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

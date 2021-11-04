@@ -1,0 +1,210 @@
+{
+    "uid": "1249CAE91684754AA72A9780172B417D1764",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Despertar",
+        "type": "vn.scene",
+        "parentId": "49DC3EE6267197419859C9E4D23776294B50",
+        "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+        "order": 2,
+        "localizableStrings": {
+            "C923DD1C2A3B5747BE68B8A967928E3DB87F": {
+                "t": "¡Laura! ¡Laura! ¡Despiertate ya! ¡Ya es hora de levantarse! ¡Al colegio venga!",
+                "d": {
+                    "cid": "1728BA421115A34C72383870FC63E6BD9AEF",
+                    "eid": "5272F8C41B3FE246E11A52D230EC3B9C462C"
+                }
+            },
+            "06F129D14894964F781987E4D9994E482F25": {
+                "t": "Al final ha resultado ser una pesadilla...",
+                "d": {
+                    "cid": "9748F1BF40CE9249DF5907C6A017F4456630",
+                    "eid": "8D973A536D4A6344816A37554032112094AA"
+                }
+            }
+        },
+        "commands": [
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "PlayerHomeM_Morning1",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "DC94F2399EE447472D6A36E75C020713FE51",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "657851C9362C7443803B989501C57A449289",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "C923DD1C2A3B5747BE68B8A967928E3DB87F",
+                        "defaultText": "¡Laura! ¡Laura! ¡Despiertate ya! ¡Ya es hora de levantarse! ¡Al colegio venga!"
+                    },
+                    "position": 0,
+                    "characterId": "1728BA421115A34C72383870FC63E6BD9AEF",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "5272F8C41B3FE246E11A52D230EC3B9C462C",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 2,
+                    "expressionId": "01EFABFC472FC040071A6E32F75AD443ADAD",
+                    "characterId": "9748F1BF40CE9249DF5907C6A017F4456630",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "B132AA40532AF64FE23A3EB4E1F32D6DBC2B",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "06F129D14894964F781987E4D9994E482F25",
+                        "defaultText": "Al final ha resultado ser una pesadilla..."
+                    },
+                    "position": 0,
+                    "characterId": "9748F1BF40CE9249DF5907C6A017F4456630",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "8D973A536D4A6344816A37554032112094AA",
+                "indent": 0,
+                "expanded": true
+            }
+        ],
+        "livePreviewDisabled": false
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "uid": "9748F1BF40CE9249DF5907C6A017F4456630",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Laura",
+        "type": "data_record",
+        "order": 13,
+        "category": "characters",
+        "id": "9748F1BF40CE9249DF5907C6A017F4456630",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "localizableStrings": {
+            "8CE8EB834E355540DA6AF026D1DAD2F40754": {
+                "t": "",
+                "d": null
+            },
+            "4E14E991456E1347F288C107427754FD65B4": {
+                "t": "Laura",
+                "d": null
+            }
+        },
+        "data": {
+            "name": {
+                "lcId": "4E14E991456E1347F288C107427754FD65B4",
+                "defaultText": "Laura"
+            },
+            "textColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 255
+            },
+            "defaultExpressionId": "61DE829330A212417B983FA3B4BA7A7AE87F",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "lipSyncSensitivity": 1,
+            "breathIntensity": 1,
+            "idleIntensity": 1,
+            "params": [],
+            "index": "9748F1BF40CE9249DF5907C6A017F4456630"
+        }
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

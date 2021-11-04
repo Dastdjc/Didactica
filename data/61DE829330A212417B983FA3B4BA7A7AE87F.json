@@ -1,0 +1,41 @@
+{
+    "uid": "61DE829330A212417B983FA3B4BA7A7AE87F",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Alegre",
+        "type": "data_record",
+        "order": 0,
+        "category": "characterExpressions",
+        "id": "61DE829330A212417B983FA3B4BA7A7AE87F",
+        "isFolder": false,
+        "parentId": "2B943FAC79A5C24D776A498849BB158768BD",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Alegre",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "sprite1 happy small",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "61DE829330A212417B983FA3B4BA7A7AE87F"
+        }
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

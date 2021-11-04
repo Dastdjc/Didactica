@@ -1,0 +1,41 @@
+{
+    "uid": "6BC364C14F30D84A1C090EB4128D8CF3965D",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Enfadada",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "6BC364C14F30D84A1C090EB4128D8CF3965D",
+        "isFolder": false,
+        "parentId": "2B943FAC79A5C24D776A498849BB158768BD",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Enfadada",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "sprite1 angry small",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "6BC364C14F30D84A1C090EB4128D8CF3965D"
+        },
+        "order": 1
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}
